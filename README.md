@@ -2,33 +2,6 @@
 
 PharmaKinetics Analyzer — это программа для анализа фармакокинетических данных, которая позволяет загружать, обрабатывать и визуализировать данные о концентрации вещества в организме во времени. Программа рассчитывает площадь под кривой (AUC) и максимальную концентрацию (Cmax) на основе введенных данных.
 
-## Установка
-
-1. **Клонируйте репозиторий:**
-   ```bash
-   git clone https://github.com/sapatit/PharmaKineticsAnalyzer.git
-   cd PharmaKineticsAnalyzer
-   ```
-
-2. **Создайте виртуальное окружение (рекомендуется):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Для Linux/Mac
-   venv\Scripts\activate  # Для Windows
-   ```
-
-3. **Установите необходимые зависимости:**
-   ```bash
-   pip install pandas numpy openpyxl matplotlib plotly pyyaml
-   ```
-
-4. **Настройте файл конфигурации:**
-   Создайте файл `config.yaml` в корневом каталоге проекта со следующим содержимым:
-   ```yaml
-   pk_data_path: 'data/pk_data.xlsx'
-   time_data_path: 'data/time.xlsx'
-   output_file_path: 'data/pharmacokinetic_results.xlsx'
-   ```
 
 ## Использование
 
